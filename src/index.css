@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-slate-850 {
+    background-color: #151d2e;
+  }
+  .bg-slate-750 {
+    background-color: #243147;
+  }
+  .border-slate-750 {
+    border-color: #2c3a52;
+  }
+  .border-slate-850 {
+    border-color: #1a2336;
+  }
+}
+
+/* Custom scrollbar for dark academic dashboard */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

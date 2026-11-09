@@ -1,0 +1,6 @@
+{
+  "name": "SGA - Sistema de Gestión Académica Modular",
+  "description": "Sistema de Gestión Académica (SGA) con Arquitectura Monolito Modular en capas, persistencia ACID, RBAC, auditoría desacoplada, backend FastAPI y Google AI Studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
